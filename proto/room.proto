@@ -1,8 +1,8 @@
 syntax = "proto3";
 
 option java_multiple_files = true;
-option java_package = "io.tokikokoko.hellogrpc.server";
-option java_outer_classname = "HelloGrpc";
+//option java_package = "io.tokikokoko.hellogrpc.server";
+//option java_outer_classname = "HelloGrpc";
 option go_package = "HelloGrpc";
 
 package HelloGrpc;
