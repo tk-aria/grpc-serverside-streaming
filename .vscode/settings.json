@@ -1,0 +1,19 @@
+{
+	"protoc": {
+		"compile_on_save": false,
+		"options": [
+			"--proto_path=.vscode",
+
+			"--cpp_out=Generated",		// Generate C++ header and source.
+			"--csharp_out=Generated",	// Generate C# source file.
+			"--java_out=Generated",		// Generate Java source file.
+			"--js_out=Generated",		// Generate JavaScript source.
+			"--objc_out=Generated",		// Generate Objective C header and source.
+			"--php_out=Generated",		// Generate PHP source file.
+			"--python_out=Generated",	// Generate Python source file.
+			"--ruby_out=Generated"		// Generate Ruby source file.
+			//"--cpp_out=.vscode",
+			//"--csharp_out=.vscode",
+		]
+	},
+}
