@@ -1,2 +1,1 @@
-# grpc-serversidestreaming
-grpc
+# grpc-serverside-streaming
