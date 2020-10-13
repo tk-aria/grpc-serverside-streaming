@@ -1,13 +1,14 @@
 {
-    "name": "sandbox-wsl-docker-go",
+    "name": "go-server-side-streaming",
     "context": "..",
-    "dockerFile": "./Dockerfile",
+    "dockerFile": "./container/Dockerfile",
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash",
         "go.formatTool": "goimports",
         "go.useLanguageServer": true,
     },
     "extensions": [
-        "golang.Go"
+        "golang.Go",
+        "zxh404.vscode-proto3"
     ]
 }
