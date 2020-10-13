@@ -1,7 +1,7 @@
 {
     "name": "sandbox-wsl-docker-go",
     "context": "..",
-    "dockerFile": "./container/Dockerfile",
+    "dockerFile": "./Dockerfile",
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash",
         "go.formatTool": "goimports",
