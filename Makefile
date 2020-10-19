@@ -33,8 +33,8 @@ setup:
 clear_proto:
 	rm -r model/*
 
-.PHONY: protoc_model_only ## [category]`description`.
-protoc_model_only:
+.PHONY: protoc-client ## [category]`description`.
+protoc-client:
 	cd proto && protoc proto/*.proto \
 		--go_out=model/ \
 		--cpp_out=model/ \
@@ -46,8 +46,8 @@ protoc_model_only:
 		--python_out=model/ \
 		--ruby_out=model/
 
-.PHONY: build_proto ## [category]`description`.
-build_proto:
+.PHONY: protoc-server ## [category]`description`.
+protoc-server:
 	cd proto && protoc ./*.proto \
 		--go_out=plugins=grpc:../model
 	
