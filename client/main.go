@@ -10,7 +10,7 @@ import (
 
     "google.golang.org/grpc"
     pb "github.com/tk-aria/model/room.pb"
-
+)
 
 const (
     address = "localhost:10000"
